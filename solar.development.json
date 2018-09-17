@@ -1,0 +1,1195 @@
+{
+  "contracts": {
+    "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol": {
+      "source": "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol:ERC20Capped",
+      "abi": [
+        {
+          "name": "mintingFinished",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "approve",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "totalSupply",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "transferFrom",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "from",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "cap",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "increaseAllowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "addedValue",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "mint",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "amount",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "balanceOf",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "finishMinting",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "addMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "renounceMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "decreaseAllowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "subtractedValue",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "transfer",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "isMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "allowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "",
+          "type": "constructor",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "cap",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "MintingFinished",
+          "type": "event",
+          "payable": false,
+          "inputs": [],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "MinterAdded",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "MinterRemoved",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "Transfer",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "from",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "Approval",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "60806040526004805460ff1916905534801561001a57600080fd5b50604051602080610aa5833981016040525161004460033364010000000061088561005982021704565b6000811161005157600080fd5b600555610093565b600160a060020a038116151561006e57600080fd5b600160a060020a0316600090815260209190915260409020805460ff19166001179055565b610a03806100a26000396000f3006080604052600436106100da5763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100df578063095ea7b31461010857806318160ddd1461012c57806323b872dd14610153578063355274ea1461017d578063395093511461019257806340c10f19146101b657806370a08231146101da5780637d64bcb4146101fb578063983b2d56146102105780639865027514610233578063a457c2d714610248578063a9059cbb1461026c578063aa271e1a14610290578063dd62ed3e146102b1575b600080fd5b3480156100eb57600080fd5b506100f46102d8565b604080519115158252519081900360200190f35b34801561011457600080fd5b506100f4600160a060020a03600435166024356102e1565b34801561013857600080fd5b5061014161035f565b60408051918252519081900360200190f35b34801561015f57600080fd5b506100f4600160a060020a0360043581169060243516604435610365565b34801561018957600080fd5b506101416104da565b34801561019e57600080fd5b506100f4600160a060020a03600435166024356104e0565b3480156101c257600080fd5b506100f4600160a060020a0360043516602435610590565b3480156101e657600080fd5b50610141600160a060020a03600435166105c9565b34801561020757600080fd5b506100f46105e4565b34801561021c57600080fd5b50610231600160a060020a0360043516610646565b005b34801561023f57600080fd5b506102316106a2565b34801561025457600080fd5b506100f4600160a060020a03600435166024356106b5565b34801561027857600080fd5b506100f4600160a060020a0360043516602435610700565b34801561029c57600080fd5b506100f4600160a060020a03600435166107df565b3480156102bd57600080fd5b50610141600160a060020a03600435811690602435166107f8565b60045460ff1690565b6000600160a060020a03831615156102f857600080fd5b336000818152600160209081526040808320600160a060020a03881680855290835292819020869055805186815290519293927f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925929181900390910190a350600192915050565b60025490565b600160a060020a03831660009081526020819052604081205482111561038a57600080fd5b600160a060020a03841660009081526001602090815260408083203384529091529020548211156103ba57600080fd5b600160a060020a03831615156103cf57600080fd5b600160a060020a0384166000908152602081905260409020546103f8908363ffffffff61082316565b600160a060020a03808616600090815260208190526040808220939093559085168152205461042d908363ffffffff61083a16565b600160a060020a0380851660009081526020818152604080832094909455918716815260018252828120338252909152205461046f908363ffffffff61082316565b600160a060020a03808616600081815260016020908152604080832033845282529182902094909455805186815290519287169391927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef929181900390910190a35060019392505050565b60055490565b6000600160a060020a03831615156104f757600080fd5b336000908152600160209081526040808320600160a060020a038716845290915290205461052b908363ffffffff61083a16565b336000818152600160209081526040808320600160a060020a0389168085529083529281902085905580519485525191937f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925929081900390910190a350600192915050565b60006005546105ad836105a161035f565b9063ffffffff61083a16565b11156105b857600080fd5b6105c2838361084c565b9392505050565b600160a060020a031660009081526020819052604090205490565b60006105ef336107df565b15156105fa57600080fd5b60045460ff161561060a57600080fd5b6004805460ff191660011790556040517fb828d9b5c78095deeeeff2eca2e5d4fe046ce3feb4c99702624a3fd384ad2dbc90600090a150600190565b61064f336107df565b151561065a57600080fd5b61066b60038263ffffffff61088516565b604051600160a060020a038216907f6ae172837ea30b801fbfcdd4108aa1d5bf8ff775444fd70256b44e6bf3dfc3f690600090a250565b6106b360033363ffffffff6108bf16565b565b6000600160a060020a03831615156106cc57600080fd5b336000908152600160209081526040808320600160a060020a038716845290915290205461052b908363ffffffff61082316565b3360009081526020819052604081205482111561071c57600080fd5b600160a060020a038316151561073157600080fd5b33600090815260208190526040902054610751908363ffffffff61082316565b3360009081526020819052604080822092909255600160a060020a03851681522054610783908363ffffffff61083a16565b600160a060020a038416600081815260208181526040918290209390935580518581529051919233927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9281900390910190a350600192915050565b60006107f260038363ffffffff6108f616565b92915050565b600160a060020a03918216600090815260016020908152604080832093909416825291909152205490565b6000808383111561083357600080fd5b5050900390565b6000828201838110156105c257600080fd5b6000610857336107df565b151561086257600080fd5b60045460ff161561087257600080fd5b61087c838361092d565b50600192915050565b600160a060020a038116151561089a57600080fd5b600160a060020a0316600090815260209190915260409020805460ff19166001179055565b600160a060020a03811615156108d457600080fd5b600160a060020a0316600090815260209190915260409020805460ff19169055565b6000600160a060020a038216151561090d57600080fd5b50600160a060020a03166000908152602091909152604090205460ff1690565b600160a060020a038216151561094257600080fd5b600254610955908263ffffffff61083a16565b600255600160a060020a038216600090815260208190526040902054610981908263ffffffff61083a16565b600160a060020a0383166000818152602081815260408083209490945583518581529351929391927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9281900390910190a350505600a165627a7a72305820cda9b5b322e135ef6af6b8f4d8b5333b77d7e1e301e0c65783598171ca0626740029",
+      "binhash": "180414e8fe5bece2364c9bb0c01e85d4749d42bdaf9f4e8d649cfa11a6102ae7",
+      "name": "ERC20Capped",
+      "deployName": "openzeppelin-solidity/contracts/token/ERC20/ERC20Capped.sol",
+      "address": "6ae2e7a8491ece8473c8d3eb5d913a420f984399",
+      "txid": "2b45b17d91df38ec3d50a33be5969fb197c9aa5ba6626b4db5383dd3549e83d7",
+      "createdAt": "2018-09-13T04:38:03.729691113Z",
+      "confirmed": true,
+      "sender": "qRhYGu6KEqsgdeexzgdnaUiFfJYPe4fSRs",
+      "senderHex": "594bf214ab1056cbdeda50cf25892490b3a7f379"
+    }
+  },
+  "libraries": {},
+  "related": {
+    "openzeppelin-solidity/contracts/access/Roles.sol:Roles": {
+      "source": "openzeppelin-solidity/contracts/access/Roles.sol:Roles",
+      "name": "Roles",
+      "abi": [],
+      "bin": "604c602c600b82828239805160001a60731460008114601c57601e565bfe5b5030600052607381538281f30073000000000000000000000000000000000000000030146080604052600080fd00a165627a7a72305820b8a8ac3728c725133dcae1c957e43e91e4f776dbe86be929fe4672cc7a5854af0029",
+      "binhash": "c68c4390ca5cda148f4970127a90fd383efd570d35b9ee559af30025b82be394"
+    },
+    "openzeppelin-solidity/contracts/access/roles/MinterRole.sol:MinterRole": {
+      "source": "openzeppelin-solidity/contracts/access/roles/MinterRole.sol:MinterRole",
+      "name": "MinterRole",
+      "abi": [
+        {
+          "name": "addMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "renounceMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "isMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "",
+          "type": "constructor",
+          "payable": false,
+          "inputs": [],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "MinterAdded",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "MinterRemoved",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "608060405234801561001057600080fd5b5061002960003364010000000061014f61002e82021704565b610068565b600160a060020a038116151561004357600080fd5b600160a060020a0316600090815260209190915260409020805460ff19166001179055565b610223806100776000396000f3006080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663983b2d56811461005b578063986502751461007e578063aa271e1a14610093575b600080fd5b34801561006757600080fd5b5061007c600160a060020a03600435166100c8565b005b34801561008a57600080fd5b5061007c610124565b34801561009f57600080fd5b506100b4600160a060020a0360043516610137565b604080519115158252519081900360200190f35b6100d133610137565b15156100dc57600080fd5b6100ed60008263ffffffff61014f16565b604051600160a060020a038216907f6ae172837ea30b801fbfcdd4108aa1d5bf8ff775444fd70256b44e6bf3dfc3f690600090a250565b61013560003363ffffffff61018916565b565b6000610149818363ffffffff6101c016565b92915050565b600160a060020a038116151561016457600080fd5b600160a060020a0316600090815260209190915260409020805460ff19166001179055565b600160a060020a038116151561019e57600080fd5b600160a060020a0316600090815260209190915260409020805460ff19169055565b6000600160a060020a03821615156101d757600080fd5b50600160a060020a03166000908152602091909152604090205460ff16905600a165627a7a72305820a1f44b04fb5bea5de32e24503fa2fdecbffd55b8b1e75aa0148d5f4300bbb8200029",
+      "binhash": "00388097ea02712913ac7272d736e4cfffefd8042dd7ced541fa0be31150f1c8"
+    },
+    "openzeppelin-solidity/contracts/math/SafeMath.sol:SafeMath": {
+      "source": "openzeppelin-solidity/contracts/math/SafeMath.sol:SafeMath",
+      "name": "SafeMath",
+      "abi": [],
+      "bin": "604c602c600b82828239805160001a60731460008114601c57601e565bfe5b5030600052607381538281f30073000000000000000000000000000000000000000030146080604052600080fd00a165627a7a7230582088904ec51b06d1931310db54917eba95b2196434e0f1ab9fde1594bccdfcbee60029",
+      "binhash": "c68c4390ca5cda148f4970127a90fd383efd570d35b9ee559af30025b82be394"
+    },
+    "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol:ERC20": {
+      "source": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol:ERC20",
+      "name": "ERC20",
+      "abi": [
+        {
+          "name": "approve",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "totalSupply",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "transferFrom",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "from",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "increaseAllowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "addedValue",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "balanceOf",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "decreaseAllowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "subtractedValue",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "transfer",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "allowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "Transfer",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "from",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "Approval",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "608060405234801561001057600080fd5b50610644806100206000396000f30060806040526004361061008d5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663095ea7b3811461009257806318160ddd146100ca57806323b872dd146100f1578063395093511461011b57806370a082311461013f578063a457c2d714610160578063a9059cbb14610184578063dd62ed3e146101a8575b600080fd5b34801561009e57600080fd5b506100b6600160a060020a03600435166024356101cf565b604080519115158252519081900360200190f35b3480156100d657600080fd5b506100df61024d565b60408051918252519081900360200190f35b3480156100fd57600080fd5b506100b6600160a060020a0360043581169060243516604435610253565b34801561012757600080fd5b506100b6600160a060020a03600435166024356103c8565b34801561014b57600080fd5b506100df600160a060020a0360043516610478565b34801561016c57600080fd5b506100b6600160a060020a0360043516602435610493565b34801561019057600080fd5b506100b6600160a060020a03600435166024356104de565b3480156101b457600080fd5b506100df600160a060020a03600435811690602435166105bd565b6000600160a060020a03831615156101e657600080fd5b336000818152600160209081526040808320600160a060020a03881680855290835292819020869055805186815290519293927f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925929181900390910190a350600192915050565b60025490565b600160a060020a03831660009081526020819052604081205482111561027857600080fd5b600160a060020a03841660009081526001602090815260408083203384529091529020548211156102a857600080fd5b600160a060020a03831615156102bd57600080fd5b600160a060020a0384166000908152602081905260409020546102e6908363ffffffff6105e816565b600160a060020a03808616600090815260208190526040808220939093559085168152205461031b908363ffffffff6105ff16565b600160a060020a0380851660009081526020818152604080832094909455918716815260018252828120338252909152205461035d908363ffffffff6105e816565b600160a060020a03808616600081815260016020908152604080832033845282529182902094909455805186815290519287169391927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef929181900390910190a35060019392505050565b6000600160a060020a03831615156103df57600080fd5b336000908152600160209081526040808320600160a060020a0387168452909152902054610413908363ffffffff6105ff16565b336000818152600160209081526040808320600160a060020a0389168085529083529281902085905580519485525191937f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925929081900390910190a350600192915050565b600160a060020a031660009081526020819052604090205490565b6000600160a060020a03831615156104aa57600080fd5b336000908152600160209081526040808320600160a060020a0387168452909152902054610413908363ffffffff6105e816565b336000908152602081905260408120548211156104fa57600080fd5b600160a060020a038316151561050f57600080fd5b3360009081526020819052604090205461052f908363ffffffff6105e816565b3360009081526020819052604080822092909255600160a060020a03851681522054610561908363ffffffff6105ff16565b600160a060020a038416600081815260208181526040918290209390935580518581529051919233927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9281900390910190a350600192915050565b600160a060020a03918216600090815260016020908152604080832093909416825291909152205490565b600080838311156105f857600080fd5b5050900390565b60008282018381101561061157600080fd5b93925050505600a165627a7a7230582089bcba80f2365612f748a46476de90c83be848cee329c8b962595f91c9b2e94b0029",
+      "binhash": "f8b040be1d7be6feaeb7741993da300de80b92507ec813c6be8179790602f541"
+    },
+    "openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol:ERC20Mintable": {
+      "source": "openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol:ERC20Mintable",
+      "name": "ERC20Mintable",
+      "abi": [
+        {
+          "name": "mintingFinished",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "approve",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "totalSupply",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "transferFrom",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "from",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "increaseAllowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "addedValue",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "mint",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "amount",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "balanceOf",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "finishMinting",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "addMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "renounceMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "decreaseAllowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "subtractedValue",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "transfer",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "isMinter",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "allowance",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": false
+            },
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": false
+            }
+          ],
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "constant": true,
+          "anonymous": false
+        },
+        {
+          "name": "MintingFinished",
+          "type": "event",
+          "payable": false,
+          "inputs": [],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "MinterAdded",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "MinterRemoved",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "Transfer",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "from",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "to",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "Approval",
+          "type": "event",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "owner",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "spender",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "60806040526004805460ff191690556100266003336401000000006108d761002b82021704565b610065565b600160a060020a038116151561004057600080fd5b600160a060020a0316600090815260209190915260409020805460ff19166001179055565b6109ab806100746000396000f3006080604052600436106100cf5763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166305d2035b81146100d4578063095ea7b3146100fd57806318160ddd1461012157806323b872dd14610148578063395093511461017257806340c10f191461019657806370a08231146101ba5780637d64bcb4146101db578063983b2d56146101f05780639865027514610213578063a457c2d714610228578063a9059cbb1461024c578063aa271e1a14610270578063dd62ed3e14610291575b600080fd5b3480156100e057600080fd5b506100e96102b8565b604080519115158252519081900360200190f35b34801561010957600080fd5b506100e9600160a060020a03600435166024356102c1565b34801561012d57600080fd5b5061013661033f565b60408051918252519081900360200190f35b34801561015457600080fd5b506100e9600160a060020a0360043581169060243516604435610345565b34801561017e57600080fd5b506100e9600160a060020a03600435166024356104ba565b3480156101a257600080fd5b506100e9600160a060020a036004351660243561056a565b3480156101c657600080fd5b50610136600160a060020a03600435166105a3565b3480156101e757600080fd5b506100e96105be565b3480156101fc57600080fd5b50610211600160a060020a0360043516610620565b005b34801561021f57600080fd5b5061021161067c565b34801561023457600080fd5b506100e9600160a060020a036004351660243561068f565b34801561025857600080fd5b506100e9600160a060020a03600435166024356106da565b34801561027c57600080fd5b506100e9600160a060020a03600435166107b9565b34801561029d57600080fd5b50610136600160a060020a03600435811690602435166107d2565b60045460ff1690565b6000600160a060020a03831615156102d857600080fd5b336000818152600160209081526040808320600160a060020a03881680855290835292819020869055805186815290519293927f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925929181900390910190a350600192915050565b60025490565b600160a060020a03831660009081526020819052604081205482111561036a57600080fd5b600160a060020a038416600090815260016020908152604080832033845290915290205482111561039a57600080fd5b600160a060020a03831615156103af57600080fd5b600160a060020a0384166000908152602081905260409020546103d8908363ffffffff6107fd16565b600160a060020a03808616600090815260208190526040808220939093559085168152205461040d908363ffffffff61081416565b600160a060020a0380851660009081526020818152604080832094909455918716815260018252828120338252909152205461044f908363ffffffff6107fd16565b600160a060020a03808616600081815260016020908152604080832033845282529182902094909455805186815290519287169391927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef929181900390910190a35060019392505050565b6000600160a060020a03831615156104d157600080fd5b336000908152600160209081526040808320600160a060020a0387168452909152902054610505908363ffffffff61081416565b336000818152600160209081526040808320600160a060020a0389168085529083529281902085905580519485525191937f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925929081900390910190a350600192915050565b6000610575336107b9565b151561058057600080fd5b60045460ff161561059057600080fd5b61059a838361082d565b50600192915050565b600160a060020a031660009081526020819052604090205490565b60006105c9336107b9565b15156105d457600080fd5b60045460ff16156105e457600080fd5b6004805460ff191660011790556040517fb828d9b5c78095deeeeff2eca2e5d4fe046ce3feb4c99702624a3fd384ad2dbc90600090a150600190565b610629336107b9565b151561063457600080fd5b61064560038263ffffffff6108d716565b604051600160a060020a038216907f6ae172837ea30b801fbfcdd4108aa1d5bf8ff775444fd70256b44e6bf3dfc3f690600090a250565b61068d60033363ffffffff61091116565b565b6000600160a060020a03831615156106a657600080fd5b336000908152600160209081526040808320600160a060020a0387168452909152902054610505908363ffffffff6107fd16565b336000908152602081905260408120548211156106f657600080fd5b600160a060020a038316151561070b57600080fd5b3360009081526020819052604090205461072b908363ffffffff6107fd16565b3360009081526020819052604080822092909255600160a060020a0385168152205461075d908363ffffffff61081416565b600160a060020a038416600081815260208181526040918290209390935580518581529051919233927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9281900390910190a350600192915050565b60006107cc60038363ffffffff61094816565b92915050565b600160a060020a03918216600090815260016020908152604080832093909416825291909152205490565b6000808383111561080d57600080fd5b5050900390565b60008282018381101561082657600080fd5b9392505050565b600160a060020a038216151561084257600080fd5b600254610855908263ffffffff61081416565b600255600160a060020a038216600090815260208190526040902054610881908263ffffffff61081416565b600160a060020a0383166000818152602081815260408083209490945583518581529351929391927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef9281900390910190a35050565b600160a060020a03811615156108ec57600080fd5b600160a060020a0316600090815260209190915260409020805460ff19166001179055565b600160a060020a038116151561092657600080fd5b600160a060020a0316600090815260209190915260409020805460ff19169055565b6000600160a060020a038216151561095f57600080fd5b50600160a060020a03166000908152602091909152604090205460ff16905600a165627a7a723058206b0a7288f1717ee23f8b72f6029120710d7cdc5aee5f3ea7e134d729a8756c580029",
+      "binhash": "4421eb96efb1d71c38649fa0bea63c0595ee1967801c817aaf33c790ca3a9dee"
+    }
+  }
+}
